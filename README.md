@@ -1,16 +1,35 @@
-# React + Vite
+# Weather Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive weather application built using React and Material UI.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search for weather by city
+- View current temperature and weather conditions
+- Switch between Celsius and Fahrenheit
+- View humidity and wind speed
+- Display weather icons
+- Handle invalid city searches and API errors
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Material UI
+- OpenWeatherMap API
 
-## Expanding the Oxlint configuration
+## Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Install dependencies:
+
+   `npm install`
+
+2. Create a `.env` file in the project root and add your own API key:
+
+   `VITE_OPENWEATHER_API_KEY=your_api_key_here`
+
+3. Start the development server:
+
+   `npm run dev`
+
+Never upload your actual API key to GitHub.
